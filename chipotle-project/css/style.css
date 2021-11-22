@@ -5,7 +5,7 @@
 /*DEFAULT STYLE SHEET SELECTORS*/
 
 body * {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 .inner-column {
@@ -27,18 +27,22 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: stretch;
 	gap: 5px;
 
-	width: 460px;
+	width: fit-content;
 	padding: 5px;
 	background-color: white;
-	border-radius: 2em;
+	border-radius: 14px;
+}
+
+
+.logo, .company-name {
+	border-radius: 12px;
 }
 
 .logo {
 	max-width: 70px;
-	border-radius: 30%;
 	overflow: hidden;
 }
 
@@ -49,7 +53,7 @@ body {
 	color: white;
 	letter-spacing: 0.15em;
 	font-size: 55px;
-	border-radius: 2em;
+	line-height: 1.1;
 	padding: 5px;
 }
 
