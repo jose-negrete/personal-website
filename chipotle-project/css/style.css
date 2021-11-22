@@ -10,7 +10,7 @@ body * {
 
 .inner-column {
 	width: 98%;
-	max-width: 450px;
+	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -22,16 +22,18 @@ body {
 	background-color: black;
 }
 
+
 .chipotle-project {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 	gap: 5px;
+
+	width: 460px;
 	padding: 5px;
 	background-color: white;
 	border-radius: 2em;
-
 }
 
 .logo {
