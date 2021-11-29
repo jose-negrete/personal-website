@@ -14,30 +14,18 @@ body * {
 
 }
 
-* {
-	box-sizing:border-box;
-}
+
+/*PHP PARTIALS SETTINGS*/
 body {
 	display:flex;
 	flex-direction:column;
 }
 
 
-
-
-
-
-
-
-
 div {
 	padding:50px;
 	font-size:25px;
 }
-
-
-
-
 
 
 
