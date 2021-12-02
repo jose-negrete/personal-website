@@ -2,6 +2,7 @@
 @import "base/css/setup.css";
 @import "base/css/typography.css";
 
+/*DEFAULT STYLES*/
 body * {
 	/*border: 1px solid red;*/
 }
@@ -9,7 +10,6 @@ body * {
 body {
 	font-family: sans-serif;
 }
-
 
 .inner-column {
 	width: 98%;
@@ -19,6 +19,15 @@ body {
 	
 }
 
+/*PROJECT STYLES*/
 
+.main-info {
+
+}
+
+
+span {
+	font-weight: 700;
+}
 
 
