@@ -9,6 +9,8 @@ body * {
 
 body {
 	font-family: sans-serif;
+	/*background-color:#F8FF00;*/
+	padding: 12px;
 }
 
 .inner-column {
@@ -22,7 +24,9 @@ body {
 /*PROJECT STYLES*/
 
 .main-info {
-
+	font-size: 32px;
+	line-height: 1.2;
+	letter-spacing: .1em;
 }
 
 
