@@ -4,14 +4,11 @@
 
 /*DEFAULT STYLES*/
 body * {
-	/*border: 1px solid red;*/
+	border: 1px solid red;
+	/*background-color:#F8FF00;*/
+	
 }
 
-body {
-	font-family: sans-serif;
-	/*background-color:#F8FF00;*/
-	padding: 12px;
-}
 
 .inner-column {
 	width: 98%;
@@ -23,7 +20,27 @@ body {
 
 /*PROJECT STYLES*/
 
-.main-info {
+
+.site-header {
+	min-height: 100vh;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.site-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+/*.main-info {
 	font-size: 32px;
 	line-height: 1.2;
 	letter-spacing: .1em;
@@ -32,6 +49,6 @@ body {
 
 span {
 	font-weight: 700;
-}
+}*/
 
 
