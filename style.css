@@ -24,14 +24,33 @@ body * {
 .site-header {
 	min-height: 100vh;
 	display: flex;
+	flex-direction: row;
 	align-items:center;
 	justify-content:center;
+
+	position: relative;
+}
+
+.site-header h2 {
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .site-nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+}
+
+a h1 {
+	font-family: sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+
 }
 
 
