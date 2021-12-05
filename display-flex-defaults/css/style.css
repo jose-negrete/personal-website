@@ -30,6 +30,10 @@ body * {
 }
 
 /*PROJECT DEFAULTS*/
+body {
+	background-color: #B9D3D3;
+}
+
 .column-default {
 	margin-top:20px;
 }
