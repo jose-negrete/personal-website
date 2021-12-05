@@ -24,14 +24,14 @@ body * {
 .site-header {
 	min-height: 100vh;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;/*This centers the inner column */
 	align-items:center;
 	justify-content:center;
 
 	position: relative;
 }
 
-.site-header h2 {
+.site-header h2 { 
 	font-family: sans-serif;
 	font-size: 20px;
 	padding: 20px;
@@ -45,7 +45,7 @@ body * {
 	flex-direction: column;
 }
 
-a h1 {
+.site-nav a h1 {
 	font-family: sans-serif;
 	font-size: 60px;
 	font-weight: 700;
