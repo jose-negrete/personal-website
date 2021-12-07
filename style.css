@@ -73,8 +73,26 @@ body * {
 }
 
 
+/*WORK SECTION*/
 
+.work {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;/*This is the default direction for display: flex*/ 
+	align-items:center;/*This centers the inner column */
+	justify-content:center;/*This centers the inner column */
 
+	position: relative;
+}
+
+.work h2 {
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 
 
