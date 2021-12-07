@@ -5,10 +5,8 @@
 /*DEFAULT STYLES*/
 body * {
 	border: 1px solid red;
-	/*background-color:#F8FF00;*/
 	
 }
-
 
 .inner-column {
 	width: 98%;
@@ -22,16 +20,16 @@ body * {
 
 
 .site-header {
-	min-height: 100vh;
+	min-height: 100vh; /* Makes site header take up the whole view port*/
 	display: flex;
-	flex-direction: row;/*This centers the inner column */
-	align-items:center;
-	justify-content:center;
+	flex-direction: row;/*This is the default direction for display: flex*/ 
+	align-items:center;/*This centers the inner column */
+	justify-content:center;/*This centers the inner column */
 
-	position: relative;
+	position: relative; /*This is so my  containing my name is positioned to the top left*/
 }
 
-.site-header h2 { 
+.site-header contact-name { 
 	font-family: sans-serif;
 	font-size: 20px;
 	padding: 20px;
@@ -45,18 +43,54 @@ body * {
 	flex-direction: column;
 }
 
-.site-nav a h1 {
+.site-nav a h2 {
 	font-family: sans-serif;
 	font-size: 60px;
 	font-weight: 700;
 
 }
 
+/*ABOUT SECTION*/
+
+.about {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;/*This is the default direction for display: flex*/ 
+	align-items:center;/*This centers the inner column */
+	justify-content:center;/*This centers the inner column */
+
+	position: relative;
+	
+}
+
+.about h2 {
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MEDIUM BREAK POINT*/
 @media (min-width: 700px){
 	.site-nav {
 		flex-direction: row;
 		justify-content: space-evenly;
+		align-items: ;
 	}
 }
 
