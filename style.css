@@ -88,6 +88,9 @@ body * {
 
 }
 
+.writing ul li {
+	list-style-type: disc;
+}
 
 
 
