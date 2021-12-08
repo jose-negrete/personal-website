@@ -83,6 +83,10 @@ body * {
 	padding: 40px;
 }
 
+.writing .inner-column * {
+	margin-top: 10px;
+
+}
 
 
 
