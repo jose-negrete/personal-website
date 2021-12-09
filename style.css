@@ -45,7 +45,7 @@ body * {
 
 .site-header .about {
 	background-color: rgba(255,255,255,.5);
-	border: 5px solid black;
+	border: 2px solid black;
 	border-radius: 12px;
 	padding: 40px;
 	width: fit-content;
