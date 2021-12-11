@@ -90,6 +90,7 @@ body * {
 	border: 5px solid black;
 	border-radius: 12px;
 	padding: 40px;
+	width: fit-content;
 }
 
 .writing .inner-column * {
