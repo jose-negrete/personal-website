@@ -1,11 +1,12 @@
 @import "base/css/meyer-reset.css";
 @import "base/css/setup.css";
 @import "base/css/typography.css";
+@import "philly-sans/stylesheet.css"
 
 /*DEFAULT STYLES*/
 body * {
 	/*border: 1px solid red;*/
-	
+
 }
 
 .inner-column {
@@ -18,6 +19,11 @@ body * {
 
 /*PROJECT STYLES*/
 
+body {
+	background-image: url("dark-garffiti.jpg");
+	color: white;
+}
+
 
 .site-header {
 	min-height: 100vh; /* Makes site header take up the whole view port*/
@@ -28,12 +34,12 @@ body * {
 
 	position: relative; /*This is so my  containing my name is positioned to the top left*/
 
-	/*background-image: url("images/dark-garffiti.jpeg");*/
 
 }
 
 .site-header contact-name { 
-	font-family: sans-serif;
+	color: inherit;
+	font-family: 'philly_sansregular';
 	font-size: 20px;
 	padding: 20px;
 	position: absolute;
