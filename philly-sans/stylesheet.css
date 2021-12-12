@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'philly_sansregular';
-    src: url('phillysans-webfont.woff2') format('woff2'),
+    src: url('philly-sans/phillysans-webfont.woff2') format('woff2'),
          url('phillysans-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
