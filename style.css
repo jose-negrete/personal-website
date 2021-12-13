@@ -39,10 +39,21 @@ body {
 
 }
 
-.site-header .contact-name { 
+.site-header h1 {
+	font-size: 24px;
+}
+
+.site-header h2 {
+	font-size: 18px;
+	line-height:1.5;
+	letter-spacing: 0.05em;
+	max-width:64ch;
+}
+
+.site-header .my-name { 
 	color: inherit;
-	font-family: 'philly_sansregular';
-	padding: 28px;
+	font-family: sans-serif;
+	padding: 10px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -53,25 +64,19 @@ body {
 	background-color: rgba(255,255,255,.5);
 	border: 2px solid black;
 	border-radius: 12px;
-	padding: 40px;
+	padding: 20px;
 	width: fit-content;
 }
 
-.site-header h1 {
-	font-size: 28px;
-}
 
-.site-header h2 {
-	font-family:sans-serif;
-	font-size:20px;
-	line-height:1.5;
-	letter-spacing: 0.05em;
-	max-width:64ch;
-}
-
-.site-header h2 + h2 {
+.site-header h1 + h2 {
 	margin-top: 10px;
 }
+
+.site-header h2 + h1 {
+	margin-top: 5px;
+}
+
 
 
 /*WRITING SECTION*/
@@ -84,12 +89,13 @@ body {
 	justify-content:center;/*This centers the inner column */
 
 	position: relative;
+	color: white;
 }
 
 .writing h1 {
 	font-family: sans-serif;
-	font-size: 28px;
-	padding: 20px;
+	font-size: 24px;
+	padding: 10px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -99,7 +105,7 @@ body {
 	background-color: rgba(255,255,255,.5);
 	border: 5px solid black;
 	border-radius: 12px;
-	padding: 40px;
+	padding: 20px;
 	width: fit-content;
 }
 
@@ -110,12 +116,12 @@ body {
 
 .writing ul li {
 	list-style-type: disc;
-	font-size:  20px;
+	font-size:  18px;
 }
 
 .writing h2 {
 
-	font-size:  20px;  
+	font-size: 18px;  
 }
 
 
