@@ -11,6 +11,9 @@
 			<link rel="stylesheet" href="css/style.css">
 
 			<style>
+				body {
+					background-color: black;
+				}
 				p {
 					color: red;
 					margin-top: 10px;
