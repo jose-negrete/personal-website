@@ -62,7 +62,7 @@ body {
 
 .site-header .about {
 	background-color: #BCBCBC;
-	padding: 20px;
+	padding: 10px;
 	width: fit-content;
 }
 
@@ -101,7 +101,7 @@ body {
 
 .writing .inner-column {
 	background-color: #BCBCBC;
-	padding: 20px;
+	padding: 10px;
 	width: fit-content;
 }
 
@@ -151,6 +151,9 @@ body {
 	left: 0;
 }
 
+.projects .project-description {
+	background-color: white;
+}
 
 
 
