@@ -42,7 +42,7 @@ body {
 .site-header .contact-name { 
 	color: inherit;
 	font-family: 'philly_sansregular';
-	padding: 20px;
+	padding: 28px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -58,12 +58,12 @@ body {
 }
 
 .site-header h1 {
-	font-size: 36px;
+	font-size: 28px;
 }
 
 .site-header h2 {
 	font-family:sans-serif;
-	font-size:24px;
+	font-size:20px;
 	line-height:1.5;
 	letter-spacing: 0.05em;
 	max-width:64ch;
@@ -88,7 +88,7 @@ body {
 
 .writing h1 {
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 28px;
 	padding: 20px;
 	position: absolute;
 	top: 0;
@@ -110,12 +110,12 @@ body {
 
 .writing ul li {
 	list-style-type: disc;
-	font-size:  24px;
+	font-size:  20px;
 }
 
 .writing h2 {
 
-	font-size:  24px; 
+	font-size:  20px;  
 }
 
 
