@@ -4,7 +4,7 @@
 @import "base/fonts/philly-sans/stylesheet.css"
 
 /*DEFAULT STYLES*/
-body * {
+ body * {
 	/*border: 1px solid red;*/
 
 }
@@ -61,10 +61,12 @@ body {
 }
 
 
-.site-header .about {
+.site-header .inner-column {
 	background-color: #BCBCBC;
 	padding: 10px;
 	width: fit-content;
+	border: 5px solid lightgrey;
+	border-radius: 14px;
 }
 
 
@@ -104,6 +106,8 @@ body {
 	background-color: #BCBCBC;
 	padding: 10px;
 	width: fit-content;
+	border: 5px solid lightgrey;
+	border-radius: 14px;
 }
 
 .writing .inner-column * {
@@ -112,7 +116,6 @@ body {
 }
 
 .writing ul li {
-	list-style-type: disc;
 	font-size:  18px;
 }
 
@@ -139,10 +142,6 @@ body {
 	color: white;
 }
 
-.projects .inner-column {
-	background-color: #BCBCBC;
-}
-
 .projects h1 {
 	font-family: sans-serif;
 	font-size: 24px;
@@ -152,18 +151,34 @@ body {
 	left: 0;
 }
 
+.projects .inner-column {
+
+
+	display: flex;
+	flex-direction: column;
+
+	gap: 10px;
+}
+
+
+
 .projects .project-description {
 	background-color: white;
+	color: black;
+	padding: 10px;
+	border: 5px solid grey;
+	border-radius: 14px;
 }
 
 
 
 /*MEDIUM BREAK POINT*/
-@media (min-width: 700px){
-	.site-nav {
+@media (min-width: 650px){
+	.projects .inner-column div {
+		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly;
-		align-items: ;
+		gap: 20px;
+		
 	}
 }
 
@@ -171,15 +186,5 @@ body {
 
 
 
-/*.main-info {
-	font-size: 32px;
-	line-height: 1.2;
-	letter-spacing: .1em;
-}
-
-
-span {
-	font-weight: 700;
-}*/
 
 
