@@ -20,9 +20,9 @@ body * {
 /*PROJECT STYLES*/
 
 body {
-	background-image: url("dark-graffiti.jpg");
-	background-color: #2E2E2C;
-}
+	background-image: url("images/dark-graffiti.png");
+	background-size: cover;
+	}
 
 
 .site-header {
