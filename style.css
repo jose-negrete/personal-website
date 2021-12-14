@@ -1,7 +1,7 @@
 @import "base/css/meyer-reset.css";
 @import "base/css/setup.css";
 @import "base/css/typography.css";
-@import "philly-sans/stylesheet.css"
+@import "base/fonts/philly-sans/stylesheet.css"
 
 /*DEFAULT STYLES*/
 body * {
@@ -41,6 +41,7 @@ body {
 
 .site-header h1 {
 	font-size: 24px;
+	font-family:"philly_sansregular",Helvetica, sans-serif;
 }
 
 .site-header h2 {
