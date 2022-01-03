@@ -17,11 +17,17 @@ a:hover {
 	background-color: lightgrey;
 }
 
+p {
+	font-family: sans-serif;
+	font-size: 48px;
+}
 
-.student-profiles {
-	
-	display: flex;
-	flex-direction: row;
+a + a {
+	padding-top: 20px;
+}
+
+.group-1 + .group-2 {
+	padding-top: 20px;
 }
 
 
