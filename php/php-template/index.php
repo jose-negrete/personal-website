@@ -15,28 +15,31 @@
 
 		<body>
 			<?php 
-				$myFavoriteThings = ["bell peppers" , "comics" , "knick-knacks" , "the color blue"];
+				$mmpRangers = ["Jason", "Kimberly", "Zack", "Trini", "Billy"];
 
-				echo $myFavoriteThings[3];
+				
 
-				echo "<p> I like the " . $myFavoriteThings[3] . "</p>";
+				foreach ($mmpRangers as $ranger) {
+					echo $ranger;
+				}
 
+				$Jason = [
 
-				$shayne = [
-					"age" => 29,
-					"favorite-food" => "soup",
-					"alive" => true,
-					"hometown" => "New York",
-					"favorite-place" => "home",
+					"name" => "Jason",
+					"age" => 16,
+					"ranger-color" => "red",
+					"home-town" => "Angel Grove",
+					"zord-name" => "Tyrannosaurus Dinozord",
+					"can-morph" => true,
+					"picture" => "'images/jason.jpg'"
 
 				];
 
-				echo $shayne["favorite-place"];
+				echo "<p>" . $Jason["ranger-color"] . "</p>";
+		
 			?>
 
-			<p>My favorite food is <?php echo $shayne["favorite-food"];?></p>
-
-			<p>My favorite place is <?=$shayne["favorite-place"]?></p>
-		
 		</body>
+
+
 	</html>
