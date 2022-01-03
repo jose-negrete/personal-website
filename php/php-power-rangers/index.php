@@ -105,7 +105,7 @@
 
 
 
-				$mmpRangers = [$Jason, $Kimberly, $Zack, $Trini, $Billy, $Tommy];
+				$mmpRangers = [$Jason, $Kimberly, $Zack, $Trini, $Billy];
 
 				foreach($mmpRangers as $mmpRanger) {
 					echo "<picture class='ranger-image'>";
