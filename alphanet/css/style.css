@@ -2,7 +2,7 @@
 @import "setup.css";
 @import"typography.css";
 body * {
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 }
 
 .inner-column {
@@ -13,6 +13,9 @@ body * {
 
 }
 
+header {
+	text-align: center;
+}
 
 
 
