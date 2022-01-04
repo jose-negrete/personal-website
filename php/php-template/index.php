@@ -35,6 +35,14 @@
 
 				];
 
+				$angleGrove = [
+					"under-attack" => true,
+				];
+
+				if($angleGrove["under-attack"] == true && $Jason["can-morph"] == true) {
+					echo "<p>It's Morphing Time</p>";
+				}
+
 				echo "<p>" . $Jason["ranger-color"] . "</p>";
 		
 			?>
