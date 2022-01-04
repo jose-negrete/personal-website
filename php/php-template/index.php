@@ -14,36 +14,44 @@
 		</head>
 
 		<body>
+
 			<?php 
-				$mmpRangers = ["Jason", "Kimberly", "Zack", "Trini", "Billy"];
+
+				$monstersData = file_get_contents("monsters.json");
+				$monsters = json_decode($monstersData, true);
+
+
+				// $mmpRangers = ["Jason", "Kimberly", "Zack", "Trini", "Billy"];
 
 				
 
-				foreach ($mmpRangers as $ranger) {
-					echo $ranger;
-				}
+				// foreach ($mmpRangers as $ranger) {
+				// 	echo $ranger;
+				// }
 
-				$Jason = [
+				// $Jason = [
 
-					"name" => "Jason",
-					"age" => 16,
-					"ranger-color" => "red",
-					"home-town" => "Angel Grove",
-					"zord-name" => "Tyrannosaurus Dinozord",
-					"can-morph" => true,
-					"picture" => "'images/jason.jpg'"
+				// 	"name" => "Jason",
+				// 	"age" => 16,
+				// 	"ranger-color" => "red",
+				// 	"home-town" => "Angel Grove",
+				// 	"zord-name" => "Tyrannosaurus Dinozord",
+				// 	"can-morph" => true,
+				// 	"picture" => "'images/jason.jpg'"
 
-				];
+				// ];
 
-				$angleGrove = [
-					"under-attack" => true,
-				];
+				// $angleGrove = [
+				// 	"under-attack" => true,
+				// ];
 
-				if($angleGrove["under-attack"] == true && $Jason["can-morph"] == true) {
-					echo "<p>It's Morphing Time</p>";
-				}
+				echo $monsters[25]["name"]["english"];
 
-				echo "<p>" . $Jason["ranger-color"] . "</p>";
+				// if($angleGrove["under-attack"] == true && $Jason["can-morph"] == true) {
+				// 	echo "<p>It's Morphing Time</p>";
+				// }
+
+				// echo "<p>" . $Jason["ranger-color"] . "</p>";
 		
 			?>
 
