@@ -1,0 +1,112 @@
+@import "meyer-reset.css";
+@import "setup.css";
+@import"typography.css";
+body * {
+	border: 1px solid red;
+}
+
+
+
+
+
+/*FLEXIBLE MODULE SETTINGS*/
+
+.orange-container {
+
+	min-height: 500px;
+	background-color: #FFCC99;
+	border-radius: 20px;
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 15px;
+}
+
+.yellow-container-one {
+	background-color: #FFED98;
+	min-width: 40%;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	
+}
+
+.green-box-one {
+	background-color: #98FFCA;
+	border-radius: 20px;
+	min-height: 15%;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+
+}
+
+
+.green-box-two {
+	background-color: #98FFCA;
+	border-radius: 20px;
+	min-height: 35%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.yellow-container-two {
+	background-color: #FFED98;
+	min-width: 20%;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin-right: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.green-box-three {
+	background-color: #98FFCA;
+	border-radius: 20px;
+	min-height: 15%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.green-box-four {
+	background-color: #98FFCA;
+	border-radius: 20px;
+	min-height: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+/*DEFAULT SETTINGS*/
+.inner-column {
+	width: 98%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
