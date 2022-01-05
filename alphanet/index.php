@@ -12,11 +12,13 @@
 		</head>
 
 		<body>
+
+
 			
 			<?php 
 
 				$shayne = [
-					"name" => "shayne",
+					"name" => "Shayne",
 					"picture" => "images/shayne.jpg",
 					"blurb" => "I am a Ph.D. candidate in African American Studies as well as a web designer. I believe websites are the most powerful mediums of communication oout today, and we have a responsility to make them create them in ways that will leave an indelible positive impact on the world",
 					"personal-website" => "https://peprojects.dev/alpha-3/shayne/",
@@ -96,30 +98,29 @@
 				];
 
 
-
-
 				$students = [$shayne, $budi, $tara, $andrew, $joshua, $natasha, $jose, $saul, $wytonya, $sheriffDerek];
 
 				foreach ($students as $student) {
-					echo"<picture class='portrait'>"; 
-					echo 	'<img src=' . $student["picture"] . '>';
-					echo "</picture>";
 
-					echo "<p>" . $student['name'] . "</p>";
-					echo "<p>" . $student['blurb'] . "</p>";
-					echo "<a href=' " . $student["personal-website"] . "'><p>" .$student["click-here-text"] . "</p></a>";
+					echo "<div class='profile'>";
+
+						echo "<picture class='portrait'>"; 
+							echo 	'<img src=' . $student["picture"] . '>';
+						echo "</picture>";
+
+						echo "<div class='profile-text'>";
+
+							echo "<p>" . $student['name'] . "</p>";
+							echo "<p>" . $student['blurb'] . "</p>";
+							echo "<a href=' " . $student["personal-website"] . "'>" .$student["click-here-text"] . "</a>";
+
+						echo "</div>";
+
+					echo "</div>";
 					
 				}
 			 ?>
-				<a href=''></a>
-
-
-		
-
-
-						
-					<picture></picture>
-				
+			
 		
 			
 

@@ -44,8 +44,27 @@ body * {
 	min-height: 15%;
 	margin-left: 10px;
 	margin-right: 10px;
-	
 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+
+.pink-box-one {
+	background-color: #FF99FF;
+	height: 50px;
+	min-width: 50%;	
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+.pink-box-two {
+	background-color: #FF99FF;
+	height: 50px;
+	width:50px;	
+	border-radius: 20px;
+	margin-top: 10px;
 }
 
 
@@ -55,6 +74,14 @@ body * {
 	min-height: 35%;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.pink-box-three {
+	background-color: #FF99FF;
+	height: 150px;
+	width:150px;	
+	border-radius: 20px;
+	margin: 10px;
 }
 
 
@@ -90,12 +117,22 @@ body * {
 	margin-top: 10px;
 }
 
+.pink-box-four {
+	background-color: #FF99FF;
+	border-radius: 20px;
+	min-height: 50px;
+	width: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
 .green-box-four {
 	background-color: #98FFCA;
 	border-radius: 20px;
 	min-height: 25%;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 10px;
 }
 
 
