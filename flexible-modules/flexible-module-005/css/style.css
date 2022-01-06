@@ -14,7 +14,9 @@ body * {
 .container {
 	min-height: 100vh;
 
-	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 
 }
 
@@ -35,7 +37,7 @@ body {
 div {
 	
 	border-radius: 10px;
-	
+	flex-basis: 10%;
 }
 
 div p {
@@ -44,18 +46,22 @@ div p {
 
 .blue-box {
 	background-color: #9acbff;
+	
 }
 
 .pink-box {
 	background-color: #ff999a;
+	
 }
 
 .orange-box {
 	background-color: #ffcc99;
+	
 }
 
 .yellow-box {
 	background-color: #ffee99;
+	
 }
 
 
