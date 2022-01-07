@@ -12,12 +12,12 @@ body * {
 /*FLEXIBLE MODULE SETTINGS*/
 
 .container {
+	
 	min-height: 100vh;
-
+	
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	
+	justify-content: center;
 
 }
 
@@ -38,17 +38,15 @@ body {
 div {
 	
 	border-radius: 10px;
-	height: 10vh;
 	
 }
 
 div p {
-	padding: 10px;
+	padding: 40px;
 }
 
 .blue-box {
 	background-color: #9acbff;
-
 }
 
 .pink-box {
