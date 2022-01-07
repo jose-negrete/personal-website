@@ -22,7 +22,7 @@
 
 				$students = [$shayne, $budi, $tara, $andrew, $joshua, $natasha, $jose, $saul, $wytonya, $sheriffDerek];
 
-				echo "<h1>The Alpha Net</h1>";
+				echo "<h1 class='web-title'>The Alpha Net</h1>";
 
 				echo "<div class='alpha-net'>";
 

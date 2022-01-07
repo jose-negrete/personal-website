@@ -3,7 +3,7 @@
 				$shayne = [
 					"name" => "Shayne",
 					"picture" => "images/shayne.jpg",
-					"blurb" => "I am a Ph.D. candidate in African American Studies as well as a web designer. I believe websites are the most powerful mediums of communication oout today, and we have a responsility to make them create them in ways that will leave an indelible positive impact on the world",
+					"blurb" => "I am a web designer and Ph.D. candidate at Yale University. I want to make websites that leave an indelible and positive impact",
 					"personal-website" => "https://peprojects.dev/alpha-3/shayne/",
 					"click-here-text" => "Check out my work here",
 				];
