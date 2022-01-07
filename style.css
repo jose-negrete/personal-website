@@ -5,7 +5,7 @@
 
 /*DEFAULT STYLES*/
  body * {
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 
 }
 
@@ -19,7 +19,33 @@
 
 /*PROJECT STYLES*/
 
+.portrait {
+	max-width: 150px;
+	border: 3px solid white;
+	outline: 1px solid black;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: 5px;
 
+}
+
+.profile-text * {
+
+	font-size:16px;
+	line-height:2;
+	letter-spacing: 0.05em;
+	max-width:72ch;
+	padding:20px;
+}
+
+.profile-text h1 {
+	font-family: cursive;
+	font-size: 24px; 
+}
+
+.profile-text a {
+	font-family: sans-serif;
+}
 
 
 
