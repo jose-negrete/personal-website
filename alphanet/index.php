@@ -24,7 +24,7 @@
 
 				echo "<h1 class='web-title'>The Alpha Net</h1>";
 
-				echo "<div class='alpha-net'>";
+				echo "<div class='inner-column'>";
 
 				foreach ($students as $student) {
 
