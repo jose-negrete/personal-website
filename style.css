@@ -5,10 +5,10 @@
 
 
  body * {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 
 }
-
+/*DEFAULT*/
 .inner-column {
 	width: 98%;
 	max-width: 960px;
@@ -17,7 +17,39 @@
 	
 }
 
+.site-header .introduction{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
 
+}
+
+.site-header .inner-column p {
+	font-size:16px;
+	line-height:2;
+	letter-spacing: 0.1em;
+	max-width:72ch;
+	padding:20px;
+}
+
+.site-header .inner-column p span {
+	font-size: 20px;
+}
+.site-header .inner-column a {
+	font-size:16px;
+	line-height:2;
+	letter-spacing: 0.1em;
+	max-width:72ch;
+	padding:20px;
+
+	border: 1px solid black;
+	border-radius: 12px;
+	background-color: black;
+	color: white;
+	width: fit-content;
+}
 .portrait {
 	max-width: 150px;
 	border: 3px solid white;
@@ -28,16 +60,11 @@
 
 }
 
-.profile-text * {
 
-	font-size:16px;
-	line-height:2;
-	letter-spacing: 0.05em;
-	max-width:72ch;
-	padding:20px;
-}
 
-.profile-text h1 {
+
+
+.site-header .inner-column h1 {
 	font-family: cursive;
 	font-size: 24px; 
 }
@@ -49,7 +76,7 @@
 
 .project-card {
 	
-	width: fit-content;
+	
 	min-height: 25vh;
 	display:  flex;
 	flex-direction: column;
@@ -72,7 +99,7 @@
 
 
 @media (min-width: 600px){
-	.project-items {
+	.project-items .inner-column {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
