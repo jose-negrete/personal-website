@@ -30,3 +30,9 @@ graphic-diptych text-content {
     /* it depends on the situation */
   }
 }
+/*SHAYNE'S STYLE*/
+@media (min-width: 660px) {
+  graphic-diptych {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }

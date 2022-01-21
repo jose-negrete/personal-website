@@ -13,11 +13,11 @@
 		<img src='<?=$thumbnail?>' loading='lazy' alt='$todo'>
 	</picture>
 
-	<h2 class='attention-voice'><?=$article["heading"]?></h2>
+	<h2 class='command-voice'><?=$article["heading"]?></h2>
 
 	<p class='calm-voice'><?=$article["description"]?></p>
 
-	<a class='link' href='#'>
+	<a class='link' href='#' class="link-button-clear">
 		<span>Read more</span>
 	</a>
 

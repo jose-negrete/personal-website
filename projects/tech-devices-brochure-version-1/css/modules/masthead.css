@@ -1,6 +1,7 @@
 
 mast-head {
   display: block;
+
 }
 
 mast-head nav {
@@ -15,14 +16,30 @@ mast-head .logo {
 
 mast-head a {
   font-family: sans-serif;
+  text-transform: uppercase;
   font-size: 1rem;
   padding:  10px;
+  color: var(--black);
+  font-weight: 700;
 }
+
 
 @media (min-width: 600px) {
   mast-head {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+  .site-header .site-menu a:nth-of-type(2) {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+
+}
+.site-header .site-menu a:nth-of-type(3) {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+} 
 }

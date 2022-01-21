@@ -14,10 +14,6 @@
 		<a href='#'>
 			<span>"Masthead"</span>
 		</a>
-
-		<a href='#'>
-			<span>Support</span>
-		</a>
 	</nav>
 
 
