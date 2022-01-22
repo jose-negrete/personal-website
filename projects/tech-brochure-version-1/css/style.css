@@ -118,6 +118,9 @@ body * {
 .site-header mast-head {
 	display: flex;
 }
+.site-header mast-head  .site-menu a:hover {
+	color: var(--primary-1);
+}
 .welcome graphic-diptych .text-content-nav {
 	display: flex;
 	flex-direction: column;
@@ -189,13 +192,21 @@ align-items: flex-start;
 .site-footer site-map .site-menu .footer-main-links{
 	display: flex;
 	flex-direction: column;
-
 }
+.site-footer site-map .site-menu .footer-main-links:hover a {
+	color: dimgrey;
+}
+
+.site-footer site-map .site-menu .footer-main-links a:hover {
+	color: var(--white);
+}
+
 .site-footer site-map .site-menu a {
 	font-size: 30px;
 	color: var(--white);
 	text-decoration: none;
 }
+
 .site-footer site-map .site-menu .logo-company-name {
 	display: flex;
 	flex-direction: row;
@@ -237,6 +248,9 @@ align-items: flex-start;
 	font-weight: 400;
 	font-size: 16px;
 	color: dimgrey;	
+}
+.site-footer site-map .about-vr-products-menu nav a:hover {
+	color: var(--white);
 }
 .site-footer site-map .footer-side-links h3.command-voice {
 	padding-top: 110px;
