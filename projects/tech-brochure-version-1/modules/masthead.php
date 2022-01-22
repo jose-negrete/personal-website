@@ -1,18 +1,23 @@
 
 <mast-head>
 
-	<nav class='site-menu'>
+	<nav class='home-page-logo'>
 		<a class='logo' href='#'>
 			<img src="images/logo.svg" alt="">
 			<!-- or you could actually use the SVG -->
 		</a>
+	</nav>
+
+
+
+	<nav class='site-menu'>
 
 		<a href='#'>
-			<span>Some page</span>
+			<span>products</span>
 		</a>
 
 		<a href='#'>
-			<span>"Masthead"</span>
+			<span>support</span>
 		</a>
 	</nav>
 

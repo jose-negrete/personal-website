@@ -2,7 +2,7 @@
 <graphic-diptych>
 
 	<picture>
-		<img src='https://peprojects.dev/images/square.jpg' alt='$todo'>
+		<img src='https://peprojects.dev/images/landscape.jpg' alt='$todo'>
 	</picture>
 
 	<div class="text-content-nav">

@@ -9,9 +9,11 @@ site-map {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 site-map .logo {
+  
   max-width:  40px;
 }
 
@@ -20,11 +22,13 @@ site-map .logo * {
 }
 
 site-map a {
-  font-family: sans-serif;
-  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   padding:  10px;
   text-decoration: underline;
+  color: dimgrey;
 }
+
 
 @media (min-width:  700px) {
   site-map nav {

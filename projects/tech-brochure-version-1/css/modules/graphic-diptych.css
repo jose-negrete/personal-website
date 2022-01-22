@@ -21,7 +21,7 @@ graphic-diptych text-content {
   }
 
   graphic-diptych :is(picture, text-content) {
-    width: 50%;
+    
   }
 
   graphic-diptych picture {

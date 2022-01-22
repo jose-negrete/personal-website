@@ -2,33 +2,65 @@
 <site-map>
 
 	<nav class='site-menu'>
-		<a class='logo' href='#'>
-			<?php include("./icons/circle.php"); ?>
-		</a>
-		<a href='./'>Home</a>
-		<a href='404.php'>404 error</a>
+
+		<div class="logo-company-name">
+			<a class='logo' href='#'>
+				<?php include("./icons/circle.php"); ?>
+			</a>
+		</div>
+		
+		<div class="footer-main-links">
+			<a href='./' class='command-voice'>Company Name</a>
+			<a href='./' class='command-voice'>products</a>
+			<a href='' class='command-voice'>Experiences</a>
+			<a href='' class='command-voice'>Apps & Games</a>
+			<a href='' class='command-voice'>support</a>
+			<a href='' class='command-voice'>Support</a>
+			<a href=''class='command-voice'>Developers</a>
+		</div>
+
 	</nav>
 
-	<nav class='user-menu'>
-		<h3>Account Menu</h3>
 
-		<a href='#'>Sign-in</a>
-	</nav>
+	<div class="footer-side-links">
+		<div class="about-vr-products-menu">
+			<nav class='products-menu'>
+				<h3 class="subtle-heading">All Products</h3>
 
-	<nav class='legal-menu'>
-		<h3>Legal Menu</h3>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+			</nav>
 
-		<a href='#'>Legal thing a</a>
-		<a href='#'>Legal thing b</a>
-	</nav>
+			<nav class='more-vr-menu'>
+				<h3 class="subtle-heading">More VR</h3>
 
-	<nav class='social-menu'>
-		<h3>Social Menu</h3>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+			</nav>
 
-		<a href='#'>social thing a</a>
-		<a href='#'>social thing b</a>
-		<a href='#'>social thing c</a>
-		<a href='#'>social thing d</a>
-	</nav>
+			<nav class='about-menu'>
+				<h3 class="subtle-heading">about</h3>
+
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+				<a href='#'>product item</a>
+			</nav>
+		</div>
+
+		<h3 class="command-voice">Get News & Updates</h3>
+	</div>
+
+
 
 </site-map>

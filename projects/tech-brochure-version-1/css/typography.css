@@ -38,8 +38,8 @@
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 44px;
-	line-height: 40px;
-	color: white;
+	line-height: 1.2em;
+	color: var(--white);
 	max-width: 20ch;
 }
 
@@ -50,14 +50,15 @@
 	font-size: 16px;
 	color: var(--white);	
 }
+
 .stand-out-voice {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 45px; 
-	 
-	
 }
+
+
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now $todo */
 p + p {

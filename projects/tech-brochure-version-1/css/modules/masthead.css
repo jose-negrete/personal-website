@@ -1,6 +1,9 @@
 
 mast-head {
   display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 
@@ -26,20 +29,9 @@ mast-head a {
 
 @media (min-width: 600px) {
   mast-head {
-    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
   }
-  .site-header .site-menu a:nth-of-type(2) {
-  position: absolute;
-  left: 30%;
-  right: 30%;
 
-}
-.site-header .site-menu a:nth-of-type(3) {
-  position: absolute;
-  left: 50%;
-  right: 50%;
-} 
 }
