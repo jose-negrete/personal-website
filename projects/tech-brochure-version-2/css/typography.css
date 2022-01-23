@@ -37,10 +37,10 @@
 	font-family: "Roboto", sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
-	font-size: 30px;
-	line-height: 1.2em;
+	font-size: 20px;
+	line-height: 1.5em;
 	color: var(--white);
-	max-width: 20ch;
+	max-width: 230ch;
 }
 
 .subtle-heading {

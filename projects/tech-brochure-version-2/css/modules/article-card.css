@@ -14,18 +14,26 @@ article-card {
 }
 
 article-card h2 {
+  font-family: "Robot", sans-serif;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
   margin-top: 20px;
   color: var(--white);
+  max-width: 20ch;
+  padding-top: 20px;
 }
 article-card p {
   color: #909090;
 }
 
 article-card a {
-  margin-top: 40px;
+  margin-top: 100px;
   color: var(--white);
   padding: 10px;
   border: 1px solid grey;
   border-radius: 20px;
+  text-transform: uppercase;
   
 }

@@ -15,6 +15,13 @@ mast-head nav {
   flex-wrap: wrap;
 }
 
+mast-head nav.user-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 mast-head .logo {
   max-width:  60px;
 }
