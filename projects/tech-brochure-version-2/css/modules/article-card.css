@@ -35,5 +35,9 @@ article-card a {
   border: 1px solid grey;
   border-radius: 20px;
   text-transform: uppercase;
-  
+}
+
+article-card a:hover {
+  background-color:var(--white);
+  color:var(--black);
 }
