@@ -15,12 +15,6 @@ mast-head nav {
   flex-wrap: wrap;
 }
 
-mast-head nav.user-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-}
 
 mast-head .logo {
   max-width:  60px;
@@ -29,12 +23,18 @@ mast-head .logo {
 mast-head a {
   font-family: sans-serif;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12px;
   padding:  5px;
   color: var(--black);
   font-weight: 700;
 }
 
+
+@media (min-width:500px) {
+  mast-head a {
+    font-size: 16px;
+  }
+}
 
 @media (min-width: 600px) {
   mast-head {

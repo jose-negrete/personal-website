@@ -36,6 +36,11 @@
   padding: 20px;
   text-align: center;
 }
+.link-button:hover {
+  color:var(--black);
+  background-color:var(--white);
+  border:none;
+}
 
 .link-button-blue {
   color: white;

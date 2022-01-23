@@ -20,13 +20,6 @@
 			<span>support</span>
 		</a>
 
-		<a href='#'>
-			<span>Experiences</span>
-		</a>
-
-		<a href='#'>
-			<span>apps & games</span>
-		</a>
 	</nav>
 
 

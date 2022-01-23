@@ -50,8 +50,8 @@ html {
 /* SITE SECTIONS */
 .site-header {
 	/*background-color: #9ec9eb;*/
-	position: sticky;
-	top: 0;
+/*	position: sticky;
+	top: 0;*/
 	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
 }
 .site-header inner-column {
@@ -113,7 +113,7 @@ html {
 /*SHAYNE'S STYLE*/
 
 body * {
-	border:  1px solid #ff7600;
+	/*border:  1px solid #ff7600;*/
 }
 .site-header mast-head {
 	display: flex;
@@ -178,11 +178,15 @@ background: linear-gradient(0.25turn, var(--primary-1),var(--primary-2));
 .help-us call-to-action p {
 	text-align: end;
 }
+
+
 .site-footer {
 	background-color: var(--black);
 }
 
 .site-footer site-map .site-menu {
+padding-bottom: 10px;
+
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -202,7 +206,6 @@ align-items: flex-start;
 }
 
 .site-footer site-map .site-menu a {
-	font-size: 30px;
 	color: var(--white);
 	text-decoration: none;
 }
@@ -254,7 +257,6 @@ align-items: flex-start;
 }
 .site-footer site-map .footer-side-links h3.command-voice {
 	padding-top: 110px;
-	font-size: 22px;
 }
 
 

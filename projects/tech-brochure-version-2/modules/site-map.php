@@ -25,7 +25,7 @@
 	<div class="footer-side-links">
 		<div class="about-vr-products-menu">
 			<nav class='products-menu'>
-				<h3 class="subtle-heading">All Products</h3>
+				<h3 class="subtle-heading">Products</h3>
 
 				<a href='#'>product item</a>
 				<a href='#'>product item</a>
