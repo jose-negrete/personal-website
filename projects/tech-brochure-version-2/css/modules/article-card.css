@@ -22,7 +22,10 @@ article-card p {
 }
 
 article-card a {
-  margin-top: 20px;
-  color: var(--color);
-  padding-top: 80px;
+  margin-top: 40px;
+  color: var(--white);
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  
 }
