@@ -163,6 +163,7 @@ display:none;
 
 .stuff inner-column articles-intro header p {
 	color: var(--black);
+	font-size: 14px;
 }
 @media (min-width: 700px) {
 	.stuff inner-column articles-intro article-card picture {
