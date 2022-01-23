@@ -156,7 +156,14 @@ background: linear-gradient(0.25turn, var(--primary-1),var(--primary-2));
 display:none;
 
 }
+.stuff inner-column articles-intro header h2 {
+	color: var(--black);
+	text-align: center;
+}
 
+.stuff inner-column articles-intro header p {
+	color: var(--black);
+}
 @media (min-width: 700px) {
 	.stuff inner-column articles-intro article-card picture {
 		display: block;
