@@ -39,7 +39,7 @@
 .link-button:hover {
   color:var(--black);
   background-color:var(--white);
-  border:none;
+ 
 }
 
 .link-button-blue {
