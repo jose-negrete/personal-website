@@ -149,13 +149,17 @@ body * {
 
 
 .get-involved inner-column {
-	background-image: url('https://images.unsplash.com/photo-1617802690992-15d93263d3a9'), 
-	linear-gradient(0.25turn, var(--primary-1),var(--primary-2));
-	background-size: cover;
-	background-position: center bottom;
-	background-blend-mode: multiply;
+	background: linear-gradient(0.25turn, var(--primary-1),var(--primary-2));
+		
 }
 @media (min-width: 500px) {
+	.get-involved inner-column {
+			background-image: url('https://images.unsplash.com/photo-1617802690992-15d93263d3a9'), 
+			linear-gradient(0.25turn, var(--primary-1),var(--primary-2));
+			background-size: cover;
+			background-position: center bottom;
+			background-blend-mode: multiply;
+	}
 	.get-involved call-to-action p {
 		font-size: 32px;
 	}
