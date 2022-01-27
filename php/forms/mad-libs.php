@@ -24,51 +24,29 @@
 // Initialize variable for the adverb 
 	$adverb = "";
 //Initialize variable for the default message;
-	$message = "Welcome to the Madlib generator"; 
+	$message = ""; 
 // Initialize variable mad-lib 
-	$madlib = "";
+	
 // display mad-lib 
+	$submitted = isset($_POST["submitted"]);
 
-	if( isset($_POST["submitted"]) ) {
-
-		if( isset($_POST["verb"]) ) {
-
-			$verb = $_POST["verb"];
-
-			if( strlen($_POST["verb"] < 1) ) {
-				$verb = "Verb";	
-			}
+	if ($submitted) {
+		$verb = empty($_POST["verb"]) ? "[verb]" : $_POST["verb"];
+		$adjective = empty($_POST["adjective"]) ? "[adjective]" : $_POST["adjective"];
+	
+		$adverb = $_POST["adverb"];
+		if (empty($adverb)) {
+			$adverb = "[adverb]";
 		}
+
+		$noun = empty($_POST["noun"]) ? "[noun]" : $_POST["noun"];
 		
-		if( isset($_POST["adjective"]) ) {
-			$adjective = $_POST["adjective"];
-
-			if( strlen($_POST["adjective"] < 1) ) {
-				$adjective = "Adjective";
-			}
-		}
-		
-		if( isset($_POST["noun"]) ) {
-			$noun = $_POST["noun"];
-
-			if( strlen($_POST["noun"] < 1) ) {
-				$noun = "Noun";
-			}
-		}
-
-		if( isset($_POST["adverb"]) ) {
-			$adverb = $_POST["adverb"];
-
-
-			if( strlen($_POST["adverb"] < 1) ) {
-				$adverb = "Adverb";
-			}
-		}
-
-		$madlib = "Do you $verb your $adjective $noun $adverb? That's hilarious!";
-
-		$message = $madlib;
+		$message = "Do you $verb your $adjective $noun $adverb? That's hilarious!";
+	} else {
+		$message = "Input different words, and we'll create a madlib";
 	}
+
+	
 ?>
 
 

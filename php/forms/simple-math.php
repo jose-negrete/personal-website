@@ -18,7 +18,15 @@
  			$intNum_2 = floatval($num_2);
  		}
 
- 		echo $intNum_1 + $intNum_2;
+ 		$sum = $intNum_1 + $intNum_2;
+ 		$difference = $intNum_1 - $intNum_2;
+ 		$product = $intNum_1 * $intNum_2;
+ 		$quotient = $intNum_1 / $intNum_2;
+ 		
+ 		$message = "<li>The sum of $intNum_1 and $intNum_2 is $sum</li>
+				 		<li>The difference of $intNum_1 and $intNum_2 is $difference</li>
+				 		<li>The product of $intNum_1 and $intNum_2 is $product</li>
+				 		<li>The quotient of $intNum_1 and $intNum_2 is $quotient</li>"; 	
  	}
 // Convert variables from strings to numbers 
 // Display the Calculations using the converted variables  
@@ -29,12 +37,12 @@
 
 	<div class="field">
 		<label>Number 1</label>
-		<input type="number" name="num-1" value="<?=$num_1?>" placeholder="...">
+		<input type="number" name="num-1" value="<?=$num_1?>" placeholder="..." min="0">
 	</div>
 
 	<div class="field">
 		<label>Number 2</label>
-		<input type="number" name="num-2" value="<?=$num_2?>" placeholder="...">
+		<input type="number" name="num-2" value="<?=$num_2?>" placeholder="..." min="0">
 	</div>
 
 
