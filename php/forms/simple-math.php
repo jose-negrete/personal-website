@@ -28,8 +28,7 @@
 				 		<li>The product of $intNum_1 and $intNum_2 is $product</li>
 				 		<li>The quotient of $intNum_1 and $intNum_2 is $quotient</li>"; 	
  	}
-// Convert variables from strings to numbers 
-// Display the Calculations using the converted variables  
+
 ?>
 
 <form method="POST">
