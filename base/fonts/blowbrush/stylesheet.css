@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'blow-brush';
+    src: url('blowbrush.ttf') format('ttf'),
+         url('blowbrush.otf') format('otf');
+/*    font-weight: normal;
+    font-style: normal;*/
+
+}

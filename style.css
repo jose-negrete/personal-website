@@ -2,12 +2,17 @@
 @import "base/css/setup.css";
 @import "base/css/typography.css";
 @import "base/fonts/philly-sans/stylesheet.css";
+@import "base/fonts/blowbrush/stylesheet.css";
+
 
 
  body * {
 	/*border: 1px solid red;*/
 
 }
+
+
+
 /*DEFAULT*/
 .inner-column {
 	width: 98%;
@@ -65,8 +70,10 @@
 
 
 .site-header .inner-column h1 {
-	font-family: cursive;
-	font-size: 24px; 
+	font-family: 'blow-brush', sans-serif;
+	font-size: 16px; 
+
+
 }
 
 .profile-text a {
