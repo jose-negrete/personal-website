@@ -2,10 +2,10 @@
 // Initialize current age 
 $currentAge = "";
 
-$c = ""; 
+$int_currentAge = ""; 
 // Initialize age you'd like to retire 
 $retirementAge = "";
-$r= ""; 
+$int_retirementAge= ""; 
 // Initialize work years
 $workYears = "";
 // Initialize Message 
@@ -21,18 +21,18 @@ if ($submitted) {
 	// Setting variables and checking if fields are populated
 	if ( isset($_POST['current-age']) ) {
 		$currentAge = $_POST['current-age'];
-		$c = floatval($currentAge);
+		$int_currentAge = floatval($currentAge);
 		
 	}
 
 	if ( isset($_POST['retirement-age']) ) {
 		$retirementAge = $_POST['retirement-age'];
-		$r = floatval($retirementAge);
+		$int_retirementAge = floatval($retirementAge);
 		
 	}
 
 // Subtract retirement age from current age to create workYears variable  
-	$workYears = $r - $c;
+	$workYears = $int_retirementAge - $int_currentAge;
 // Add current year to workYears variable to get year you can retire 
 	$retirementYear = $currentYear + $workYears;
 
@@ -44,7 +44,7 @@ if ($submitted) {
 	else if ( empty($retirementAge) ) {
 		$message = "we need your retirement age to perform the calculations";
 	}
-	else if ($c >= $r ) {
+	else if ($int_currentAge >= $int_retirementAge ) {
 		$message = "Good news. You can already retire";
 	}
 	else {
@@ -68,12 +68,12 @@ if ($submitted) {
 
 	<div class="field">
 		<label>How old are you currently?</label>
-		<input type="number" name="current-age" value="<?php=$c?>" placeholder="..." min="0">
+		<input type="number" name="current-age" value="<?php=$int_currentAge?>" placeholder="..." min="0">
 	</div>
 
 	<div class="field">
 		<label>At what age do you want to retire?</label>
-		<input type="number" name="retirement-age" value="<?php=$r?>" placeholder="..." min="0">
+		<input type="number" name="retirement-age" value="<?php=$int_retirementAge?>" placeholder="..." min="0">
 	</div>
 
 
