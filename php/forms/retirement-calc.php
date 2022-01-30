@@ -68,12 +68,12 @@ if ($submitted) {
 
 	<div class="field">
 		<label>How old are you currently?</label>
-		<input type="number" name="current-age" value="<?php=$int_currentAge?>" placeholder="..." min="0">
+		<input type="number" name="current-age" value="<?=$int_currentAge?>" placeholder="..." min="0">
 	</div>
 
 	<div class="field">
 		<label>At what age do you want to retire?</label>
-		<input type="number" name="retirement-age" value="<?php=$int_retirementAge?>" placeholder="..." min="0">
+		<input type="number" name="retirement-age" value="<?=$int_retirementAge?>" placeholder="..." min="0">
 	</div>
 
 
