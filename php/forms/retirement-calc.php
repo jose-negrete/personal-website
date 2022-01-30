@@ -17,7 +17,7 @@ $retirementYear = "";
 // Convert age and retirement age inputs to integers using flotval
 $submitted = isset($_POST["submitted"]);
 
-If ($submitted) {
+if ($submitted) {
 	// Setting variables and checking if fields are populated
 	if ( isset($_POST['current-age']) ) {
 		$currentAge = $_POST['current-age'];
