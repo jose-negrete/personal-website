@@ -1,3 +1,5 @@
+<link rel='stylesheet' href='stylesheet.css'>
+
  <?php
 // Initialize vairable number 1 
  	$num_1 = "";
@@ -32,7 +34,7 @@
 ?>
 
 <form method="POST">
-	<p><?=$message?></p>
+	<p class="message"><?=$message?></p>
 
 	<div class="field">
 		<label>Number 1</label>

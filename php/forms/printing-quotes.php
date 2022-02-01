@@ -1,15 +1,4 @@
-<style> 
-
-
-	form {
-		max-width: 400px;
-	}
-
-	.field {
-		display: flex;
-		flex-direction: column;	
-	}
-</style>
+<link rel='stylesheet' href='stylesheet.css'>
 
 
 
@@ -48,7 +37,7 @@
 
 
 <form method="POST">
-	<p><?=$message?></p>
+	<p class="message"><?=$message?></p>
 
 	<div class="field">
 		<label>Quote</label>

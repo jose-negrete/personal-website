@@ -1,3 +1,5 @@
+<link rel='stylesheet' href='stylesheet.css'>
+
 <?php
 // Initialize current age 
 $currentAge = "";
@@ -58,13 +60,12 @@ if ($submitted) {
 
 
 ?>
-<!-- TO DO  -->
-<!-- 1. Get it working to where an empty field results in a specific messaged displayed to user -->
+
 
 
 
 <form method="POST">
-	<p><?=$message?></p>
+	<p class="message"><?=$message?></p>
 
 	<div class="field">
 		<label>How old are you currently?</label>

@@ -1,54 +1,18 @@
-<style> 
+<link rel='stylesheet' href='stylesheet.css'>
 
 
-	form {
-		max-width: 400px;
-	}
+<div class="forms-list">
+	<ul>
+		<li><a href="retirement-calc.php">Retirement Calculator</a></li>
 
-	.field {
-		display: flex;
-		flex-direction: column;	
-	}
-</style>
+		<li><a href="mad-libs.php">Madlib Generator</a></li>
 
+		<li><a href="counting-characters.php">Counting String Characters</a></li>
 
+		<li><a href="printing-quotes.php">Printing Quotations</a></li>
 
-
-
-
-<?php
-	$message = "Please input a word";
-	$string="";
-
-	if( isset($_POST["submitted"]) ) {
-		$string = $_POST["word"];
-		$trim_string = trim($string);
-		$length = strlen($trim_string);
-		
-
-		if ($length > 0) {
-			$message = "$string has $length characters"; 
-		}
-	
-
-		 
-	}	
-?>
+		<li><a href="simple-math.php">Mathmatical Calculations</a></li>
+	</ul>
+</div>
 
 
-
-
-
-
-<form method="POST">
-	<p><?=$message?></p>
-
-	<div class="field">
-		<label>Word</label>
-		<input type="text" name="word" value="<?=$string?>" placeholder="...">
-	</div>
-
-
-	<button type='submit' name="submitted">Submit</button>
-	
-</form>
