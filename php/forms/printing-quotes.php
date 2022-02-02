@@ -19,7 +19,7 @@
 			$quote = $_POST["quote"];
 		}
 		
-		$author = isset($_POST['name']) ? $_POST['name'] : "";
+		$author = isset($_POST['author']) ? $_POST['author'] : "";
 		
 // compile quote and author message
 		$message = "$author says \"$quote\""; 
