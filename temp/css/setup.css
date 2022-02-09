@@ -5,6 +5,11 @@
 body {
 	min-height: 100vh;
 }
+
+inner-column {
+	display: block;
+}
+
 a {
 	display: block;
 	text-decoration: none;
@@ -27,6 +32,4 @@ img {
 	height: auto;
 }
 
-inner-column {
-	display: block;
-}
+
